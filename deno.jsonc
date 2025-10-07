@@ -1,0 +1,12 @@
+{
+  "$schema": "https://deno.land/x/deno/jsonc_schema.json",
+  "lock": false,
+  "compilerOptions": {
+    "lib": ["deno.ns", "deno.unstable", "dom"],
+    "strict": true
+  },
+  "imports": {
+    "slack/": "https://deno.land/x/slack_sdk@1.7.2/",
+    "std/": "https://deno.land/std@0.208.0/"
+  }
+}
